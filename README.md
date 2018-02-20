@@ -8,5 +8,5 @@
 
 ## Requirements
 
-Images based of the Nivida CUDA image requires the Nvidia Docker runtime.
+Images based of the Nvidia CUDA image requires the Nvidia Docker runtime.
 Installation instructions can be found [here](https://github.com/NVIDIA/nvidia-docker).

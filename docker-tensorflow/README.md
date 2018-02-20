@@ -2,7 +2,7 @@
 *A docker image with NVIDIA CUDA and TensorFlow.*
 
 - Image name: `erikgartner/dl-tensorflow-gpu:latest`
-- Base: Ubuntu 16.04 with CUDA (runtime)
+- Base: Ubuntu 16.04 with CUDA (devel)
 
 Pre-built image available using:
 ```

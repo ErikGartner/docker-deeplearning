@@ -1,5 +1,5 @@
 # Base image is the Nvida GPU image.
-FROM nvidia/cuda:8.0-cudnn6-runtime-ubuntu16.04
+FROM nvidia/cuda:8.0-cudnn6-devel-ubuntu16.04
 
 LABEL maintainer="Erik Gärtner <erik@gartner.io>"
 
