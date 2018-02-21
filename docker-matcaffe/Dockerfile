@@ -42,10 +42,8 @@ RUN git checkout $COMMITISH
 
 COPY Makefile.config.caffe Makefile.config
 
-RUN make -j5
+RUN make
 RUN make matcaffe
 
 ENV LD_LIBRARY_PATH=/caffe/build/lib
-RUN mkdir /app
-WORKDIR /app
-VOLUME /app
+WORKDIR /caffe
