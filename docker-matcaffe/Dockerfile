@@ -32,8 +32,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-ARG CAFFE_GIT
-ARG COMMITISH
+ARG CAFFE_GIT=https://github.com/BVLC/caffe.git
+ARG COMMITISH=master
 
 WORKDIR /
 RUN git clone $CAFFE_GIT caffe

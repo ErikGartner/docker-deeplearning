@@ -18,9 +18,9 @@ Use the following command to build the image:
 docker build --build-arg CAFFE_GIT=https://github.com/shihenw/caffe.git --build-arg COMMITISH=d154e896b48e8fb520cb4b47af8ba10bf9403382 -t erikgartner/dl-matcaffe-gpu:latest .
 ```
 
-- `CAFFE_GIT` is a git url to a Caffe repository.
-- `COMMITISH` is a commit-ish (commit, tag, branch) of that repository.
-- `MATLAB_IMAGE_VERSION` is the version of `erikgartner/dl-matlab-gpu`, which defaults to `7.5-cudnn5-devel-ubuntu14.04`.
+- `CAFFE_GIT` is a git url to a Caffe repository, default: `https://github.com/BVLC/caffe`.
+- `COMMITISH` is a commit-ish (commit, tag, branch) of that repository, default: `master`.
+- `MATLAB_IMAGE_VERSION` is the version of `erikgartner/dl-matlab-gpu`, default: `7.5-cudnn5-devel-ubuntu14.04`.
 
 ## Requirements
 Images based of the Nvidia Cuda image requires the Nvidia Docker runtime.
