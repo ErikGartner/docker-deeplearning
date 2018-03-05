@@ -1,4 +1,4 @@
-ARG MATLAB_IMAGE_VERSION=7.5-cudnn5-devel-ubuntu14.04
+ARG MATLAB_IMAGE_VERSION=8.0-cudnn5-devel-ubuntu14.04
 FROM erikgartner/dl-matlab-gpu:${MATLAB_IMAGE_VERSION}
 
 LABEL maintainer="Erik Gärtner <erik@gartner.io>"
