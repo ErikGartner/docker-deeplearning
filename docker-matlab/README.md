@@ -6,7 +6,7 @@
 
 ## Detailed content
 
-- The Matlab installed from the tar.
+- A prepacked matlab in a .tar file must be supplied as the `MATLAB_TAR` argument.
 
 ## Build
 
